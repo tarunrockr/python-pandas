@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np 
 
 
-# Creating the dataframe from existing excel file
-path = "../sample_files/sample_excel.xlsx"
-df = pd.read_excel(path)
-print(df)
+# # Creating the dataframe from existing excel file
+# path = "../sample_files/sample_excel.xlsx"
+# df = pd.read_excel(path)
+# print(df)
 
 # # Creating the dataframe from existing csv file
 # path = "sample_csv.csv"
@@ -19,8 +19,33 @@ print(df)
 # 				'Address': ["Bhiwadi", "Ajmer", "Jaipur", "Behror", "Alwar", "Kota"],
 # 				'Age': [1, 10, 15, 20, 23, 25] 
 # 			  }
-
 # df = pd.DataFrame(sample_dict)
+# print(df)
+
+# # Creating the dataframe from list of tuples (We need to provide the list of column names as second parameter)
+# list_of_tuples = [
+# 					("Ajay", "10-04-1991", "Bhiwadi", 5),
+# 					("Amit", "15-03-1992", "Ajmer", 10),
+# 					("Vijay", "03-07-1995", "Jaipur", 15),
+# 					("Tarun", "29-10-1997", "Behror", 20),
+# 					("Yogesh", "21-12-1999", "Alwar", 23),
+# 					("Yash", "20-01-2000", "Kota", 25)
+# 				 ]
+
+# df = pd.DataFrame(list_of_tuples, columns = ["Name", "Date Of Birth", "Place", "Age"])
+# print(df)
+
+# # Creating a pandas dataframe by using a list of dictionaries
+# dict = [
+# 		 { "Name": "Ajay", "Date Of Birth": "10-04-1991", "Place": "Bhiwadi", "Age": 5 } ,
+# 		 { "Name": "Amit", "Date Of Birth": "15-03-1992", "Place": "Ajmer", "Age": 10 } ,
+# 		 { "Name": "Vijay", "Date Of Birth": "03-07-1995", "Place": "Jaipur", "Age": 15 } ,
+# 		 { "Name": "Tarun", "Date Of Birth": "29-10-1997", "Place": "Behror", "Age": 20 } ,
+# 		 { "Name": "Yogesh", "Date Of Birth": "21-012-1999", "Place": "Alwar", "Age": 23 } ,
+# 		 { "Name": "Yash", "Date Of Birth": "20-01-2000", "Place": "Kota", "Age": 25 } ,
+# 	   ]
+
+# df = pd.DataFrame(dict)
 # print(df)
 
 
