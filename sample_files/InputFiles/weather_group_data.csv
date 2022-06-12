@@ -1,0 +1,18 @@
+Place,Date,Min Temperature,Max Temperature,Wind,Event
+Delhi,01-02-10,15,25,10 km/h,cloudy
+Delhi,02-02-10,22,30,11 km/h,clear
+Delhi,03-02-10,12,25,12 km/h,clear
+Delhi,04-02-10,16,19,13 km/h,rainy
+Jaipur,01-02-05,33,44,14 km/h,sunny
+Jaipur,02-02-05,22,47,15 km/h,sunny
+Jaipur,03-02-05,45,49,16 km/h,sunny
+Jaipur,04-02-05,21,43,17 km/h,clear
+Bangaluru,01-03-15,34,37,18 km/h,Sunny
+Bangaluru,02-03-15,47,49,19 km/h,cloudy
+Bangaluru,03-03-15,43,46,20 km/h,rainy
+Bangaluru,04-03-15,39,40,21 km/h,sunny
+Bangaluru,05-03-15,25,29,22 km/h,clear
+Chennai,01-05-20,45,48,23 km/h,clear
+Chennai,02-05-20,49,50,24 km/h,clear
+Chennai,03-05-20,43,45,25 km/h,rainy
+Chennai,04-05-20,29,35,26 km/h,rainy
