@@ -1,0 +1,10 @@
+Date,Place,Min Temperature,Max Temperature,Event
+01-04-91,Delhi,23,34,cloudy
+02-04-91,Delhi,32,43,clear
+03-04-91,Delhi,22,42,clear
+01-04-91,Pune,25,35,rainy
+02-04-91,Pune,45,48,sunny
+03-04-91,Pune,41,43,sunny
+01-04-91,Jaipur,40,42,sunny
+02-04-91,Jaipur,39,40,clear
+03-04-91,Jaipur,19,30,clear
